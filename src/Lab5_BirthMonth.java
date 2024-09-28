@@ -27,7 +27,7 @@ public class Lab5_BirthMonth
         else{
 
             trash = in.nextLine();
-            System.out.println("\nYou said your birth month was: " + month);
+            System.out.println("\nYou said your birth month was: " + trash);
             System.out.println("Please run the program again and enter a valid month.");
         }
 
