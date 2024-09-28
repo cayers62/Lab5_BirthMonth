@@ -20,12 +20,12 @@ public class Lab5_BirthMonth
         if(in.hasNextInt()) {
             month = in.nextInt();
             in.nextLine(); // Clears Buffer
-        }
-             if (month <= 12 && month != 0) {
+        } if (month <= 12 && month != 0) {
 
-                System.out.println("\nYour birth month is: " + month);
-            }
-        if(month > 12) {
+        System.out.println("\nYour birth month is: " + month);
+    }
+        else{
+
             trash = in.nextLine();
             System.out.println("\nYou said your birth month was: " + month);
             System.out.println("Please run the program again and enter a valid month.");
